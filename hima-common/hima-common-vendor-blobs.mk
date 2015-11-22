@@ -92,7 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
-    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0064.0175.hcd:system/etc/firmware/BCM4356A2_001.003.015.0064.0175.hcd \
+    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0079.0263.hcd:system/etc/firmware/BCM4356A2_001.003.015.0079.0263.hcd \
     vendor/htc/hima-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/htc/hima-common/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/htc/hima-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
@@ -179,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
@@ -590,8 +589,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdpencalib.so:system/vendor/lib64/libdpencalib.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
@@ -600,7 +597,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
@@ -646,11 +642,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b02:system/etc/firmware/htc_drmprov.b02 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b03:system/etc/firmware/htc_drmprov.b03 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
-    vendor/htc/hima-common/proprietary/etc/firmware/htc_sdservice.b00:system/etc/firmware/htc_sdservice.b00 \
-    vendor/htc/hima-common/proprietary/etc/firmware/htc_sdservice.b01:system/etc/firmware/htc_sdservice.b01 \
-    vendor/htc/hima-common/proprietary/etc/firmware/htc_sdservice.b02:system/etc/firmware/htc_sdservice.b02 \
-    vendor/htc/hima-common/proprietary/etc/firmware/htc_sdservice.b03:system/etc/firmware/htc_sdservice.b03 \
-    vendor/htc/hima-common/proprietary/etc/firmware/htc_sdservice.mdt:system/etc/firmware/htc_sdservice.mdt \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.b00:system/etc/firmware/mc_v2.b00 \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.b01:system/etc/firmware/mc_v2.b01 \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.b02:system/etc/firmware/mc_v2.b02 \
@@ -759,7 +750,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/htc/hima-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/hima-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/htc/hima-common/proprietary/bin/perfd:system/bin/perfd \
+    vendor/htc/hima-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/hima-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/htc/hima-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -820,10 +811,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/hw/activity_recognition.msm8994.so:system/vendor/lib64/hw/activity_recognition.msm8994.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/htc/hima-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/htc/hima-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/hima-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
