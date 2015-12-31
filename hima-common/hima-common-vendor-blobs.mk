@@ -324,6 +324,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_preview_wvga_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_snapshot.so:system/vendor/lib/libchromatix_t4ka7_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_video4k2k.so:system/vendor/lib/libchromatix_t4ka7_video4k2k.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/htc/hima-common/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
     vendor/htc/hima-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/htc/hima-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -483,7 +484,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/hima-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/hima-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/htc/hima-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/htc/hima-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/hima-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
@@ -540,6 +543,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
