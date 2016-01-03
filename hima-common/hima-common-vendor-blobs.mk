@@ -103,11 +103,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/hima-common/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/hima-common/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/htc/hima-common/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/htc/hima-common/proprietary/lib/libFaceRetrieve.so:system/lib/libFaceRetrieve.so \
     vendor/htc/hima-common/proprietary/lib/libHtcVteEngine.so:system/lib/libHtcVteEngine.so \
     vendor/htc/hima-common/proprietary/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
     vendor/htc/hima-common/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/hima-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/hima-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
@@ -401,6 +404,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/htc/hima-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/htc/hima-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/htc/hima-common/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
+    vendor/htc/hima-common/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
+    vendor/htc/hima-common/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
     vendor/htc/hima-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/hima-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
